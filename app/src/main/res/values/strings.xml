@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Snowtamer</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Snowtamer</string>
+    <string name="nav_header_subtitle">Airports</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="access_token">pk.eyJ1IjoiY2VkcmljamVmZmVyc29uIiwiYSI6ImNraWp1bGs4bDAza2UydG13ODIyb3VxNXAifQ.KzCnCZ5zSNAef2d7-3H4Qw</string>
+
+    <string name="card_airport_code">Code ICAO</string>
+    <string name="card_airport_name">Name Airport</string>
+    <string name="card_airport_button">GO</string>
+
+    <string name="airport_time">12 : 34 am</string>
+    <string name="airport_date">2 march</string>
+    <string name="airport_track_name">Runway</string>
+    <string name="airport_track_condition">Runway conditions</string>
+    <string name="airport_track_weather">Weather</string>
+
+    <string name="runway_condition">Conditions:\n</string>
+    <string name="runway_friction">Frictions:\n</string>
+
+    <string name="string_no_snowtam">No snowtam for this airport</string>
+    <string name="string_code_snowtam">Complete Snowtam Code</string>
+    <string name="ok">OK</string>
+    <string name="btn_dialog_snowtam">SnowTam</string>
+    <string name="codeoaci">code ICAO</string>
+    <string name="hint_search_oaci">Code ICAO...</string>
+    <string name="search">Search</string>
+
+    <string name='toast_wrong_ICAO'>Unknown ICAO Code</string>
+    <string name="month_January">January</string>
+    <string name="month_February">February</string>
+    <string name="month_March">March</string>
+    <string name="month_April">April</string>
+    <string name="month_May">May</string>
+    <string name="month_June">June</string>
+    <string name="month_July">July</string>
+    <string name="month_August">August</string>
+    <string name="month_September">September</string>
+    <string name="month_October">October</string>
+    <string name="month_November">November</string>
+    <string name="month_December">December</string>
+    <string name="Registration_Time">Registered at</string>
+    <string name="airport_history">Search history:</string>
+    <string name="text_aide" translatable="false">* A INDICATEUR D EMPLACEMENT DE L AÉRODROME (Indicateur 4 lettres).
+A) BGUK => UPERNARVIK
+* B DATE/HEURE DE L OBSERVATION (Mois – Jour - Heure et minute en UTC)
+B) 10011230 => 1 OCTOBER 12h30 UTC
+* C IDENTIFICATION DE LA PISTE. </string>
+</resources>

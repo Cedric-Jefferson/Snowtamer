@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.RunwayFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/chevron_left"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|start"
+                    android:tint="#999C9C9C"
+                    app:srcCompat="@drawable/ic_chevron_left_solid" />
+
+                <LinearLayout
+                    android:layout_width="344dp"
+                    android:layout_height="362dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_dialog_snowtam"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:background="@android:color/transparent"
+                        android:text="@string/btn_dialog_snowtam" />
+
+
+                    <TextView
+                        android:id="@+id/textView_runway_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/airport_track_name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView_runway_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/airport_time"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView_runway_condition"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/airport_track_condition"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView_runway_friction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/airport_track_weather"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/chevron_right"
+                    android:layout_width="35dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|end"
+                    android:tint="#999C9C9C"
+                    app:srcCompat="@drawable/ic_chevron_right_solid" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</FrameLayout>
